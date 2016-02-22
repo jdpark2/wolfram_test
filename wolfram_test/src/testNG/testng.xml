@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" verbose="10" name="testSuite" parallel="tests">
+<test verbose="2" name="testNG" group-by-instances="true">
+    <classes>
+        <class name="testNG.LoginFailTest" />
+        <class name="testNG.LoginSuccessTest" />
+        <class name="testNG.CreateOtherFileTest" />
+    </classes>
+</test>
+</suite> 

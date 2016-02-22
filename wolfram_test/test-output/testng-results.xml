@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSuite" duration-ms="37747" started-at="2016-02-22T04:43:58Z" finished-at="2016-02-22T04:44:35Z">
+    <groups>
+    </groups>
+    <test name="testNG" duration-ms="37747" started-at="2016-02-22T04:43:58Z" finished-at="2016-02-22T04:44:35Z">
+      <class name="testNG.LoginSuccessTest">
+        <test-method status="PASS" signature="verifyIntroTitle()[pri:1, instance:testNG.LoginSuccessTest@71be98f5]" name="verifyIntroTitle" duration-ms="13" started-at="2016-02-21T22:44:09Z" finished-at="2016-02-21T22:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIntroTitle -->
+        <test-method status="PASS" signature="navigateToLoginPage()[pri:2, instance:testNG.LoginSuccessTest@71be98f5]" name="navigateToLoginPage" duration-ms="1660" started-at="2016-02-21T22:44:09Z" finished-at="2016-02-21T22:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method status="PASS" signature="enterCredentials()[pri:3, instance:testNG.LoginSuccessTest@71be98f5]" name="enterCredentials" duration-ms="5368" started-at="2016-02-21T22:44:11Z" finished-at="2016-02-21T22:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+        <test-method status="PASS" signature="createNewDocumentTest()[pri:4, instance:testNG.LoginSuccessTest@71be98f5]" name="createNewDocumentTest" duration-ms="4821" started-at="2016-02-21T22:44:16Z" finished-at="2016-02-21T22:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDocumentTest -->
+      </class> <!-- testNG.LoginSuccessTest -->
+      <class name="testNG.LoginFailTest">
+        <test-method status="PASS" signature="verifyIntroTitle()[pri:1, instance:testNG.LoginFailTest@7a0ac6e3]" name="verifyIntroTitle" duration-ms="10" started-at="2016-02-21T22:44:21Z" finished-at="2016-02-21T22:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIntroTitle -->
+        <test-method status="PASS" signature="navigateToLoginPage()[pri:2, instance:testNG.LoginFailTest@7a0ac6e3]" name="navigateToLoginPage" duration-ms="1750" started-at="2016-02-21T22:44:21Z" finished-at="2016-02-21T22:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method status="PASS" signature="verifyFailure()[pri:3, instance:testNG.LoginFailTest@7a0ac6e3]" name="verifyFailure" duration-ms="900" started-at="2016-02-21T22:44:22Z" finished-at="2016-02-21T22:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailure -->
+      </class> <!-- testNG.LoginFailTest -->
+      <class name="testNG.CreateOtherFileTest">
+        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:testNG.CreateOtherFileTest@6fadae5d]" name="setBaseURL" is-config="true" duration-ms="4374" started-at="2016-02-21T22:43:58Z" finished-at="2016-02-21T22:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURL -->
+        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:testNG.LoginFailTest@7a0ac6e3]" name="setBaseURL" is-config="true" duration-ms="3204" started-at="2016-02-21T22:44:02Z" finished-at="2016-02-21T22:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURL -->
+        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:testNG.LoginSuccessTest@71be98f5]" name="setBaseURL" is-config="true" duration-ms="3537" started-at="2016-02-21T22:44:05Z" finished-at="2016-02-21T22:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURL -->
+        <test-method status="PASS" signature="verifyIntroTitle()[pri:1, instance:testNG.CreateOtherFileTest@6fadae5d]" name="verifyIntroTitle" duration-ms="12" started-at="2016-02-21T22:44:23Z" finished-at="2016-02-21T22:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIntroTitle -->
+        <test-method status="PASS" signature="navigateToLoginPage()[pri:2, instance:testNG.CreateOtherFileTest@6fadae5d]" name="navigateToLoginPage" duration-ms="1673" started-at="2016-02-21T22:44:23Z" finished-at="2016-02-21T22:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method status="PASS" signature="enterCredentials()[pri:3, instance:testNG.CreateOtherFileTest@6fadae5d]" name="enterCredentials" duration-ms="5383" started-at="2016-02-21T22:44:25Z" finished-at="2016-02-21T22:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+        <test-method status="PASS" signature="createNewDocumentTest()[pri:4, instance:testNG.CreateOtherFileTest@6fadae5d]" name="createNewDocumentTest" duration-ms="4657" started-at="2016-02-21T22:44:30Z" finished-at="2016-02-21T22:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDocumentTest -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testNG.CreateOtherFileTest@6fadae5d]" name="endSession" is-config="true" duration-ms="159" started-at="2016-02-21T22:44:35Z" finished-at="2016-02-21T22:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testNG.LoginSuccessTest@71be98f5]" name="endSession" is-config="true" duration-ms="198" started-at="2016-02-21T22:44:35Z" finished-at="2016-02-21T22:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testNG.CreateOtherFileTest -->
+    </test> <!-- testNG -->
+  </suite> <!-- testSuite -->
+</testng-results>
